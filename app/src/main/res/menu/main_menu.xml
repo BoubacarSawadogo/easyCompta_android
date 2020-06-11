@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/hamburgerMenu"
+        android:title=""
+        app:showAsAction="always"/>
+    <!-- android:icon="@drawable/hamburgerrr"-->
+
+    <item android:id="@+id/etats"
+        android:title="ETATS"
+        app:showAsAction="always"/>
+    <group
+        android:id="@+id/text_color_group"
+        >
+
+    <item android:id="@+id/new_vente"
+          android:title="Saisir une vente"
+          app:showAsAction="never"/>
+    <item android:id="@+id/new_depense"
+          android:title="Saisir une depense"
+          app:showAsAction="never"/>
+    <item android:id="@+id/deconnexion"
+        android:title="Deconnexion"
+        android:icon="@drawable/deconnexion"
+        app:showAsAction="never"/>
+
+    </group>
+    <group
+        android:id="@+id/text_color_group2"
+        >
+
+        <item android:id="@+id/aide"
+            android:title="Aide"
+            app:showAsAction="never"
+            />
+        <item
+            android:title=""
+            android:icon="@drawable/logoeasycompta"
+            app:showAsAction="never"/>
+        <item
+            android:title=""
+            android:icon="@drawable/logoeasycompta"
+            app:showAsAction="never"/>
+        <item
+            android:title=""
+            android:icon="@drawable/logoeasycompta"
+            app:showAsAction="never"/>
+        <item
+            android:title=""
+            android:icon="@drawable/logoeasycompta"
+            app:showAsAction="never"/>
+        <item
+            android:title=""
+            android:icon="@drawable/logoeasycompta"
+            app:showAsAction="never"/>
+        <item
+            android:title=""
+            android:icon="@drawable/logoeasycompta"
+            app:showAsAction="never"/>
+        <item
+            android:title=""
+            android:icon="@drawable/logoeasycompta"
+            app:showAsAction="never"/>
+    </group>
+
+
+
+</menu>

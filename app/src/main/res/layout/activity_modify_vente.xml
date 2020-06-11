@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SaisieVenteFormActivity"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bgg"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:text="Modification de vente"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/blackColor"
+                android:layout_marginTop="25dp"
+                />
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:focusable="true"
+                android:id="@+id/date_vente_modify"
+                android:background="@drawable/border_ed_formulaire"
+                android:backgroundTint="@color/greyLight"
+                android:textColor="@color/blackColor"
+                android:layout_height="40dp"
+                android:hint="Date"
+                android:inputType="date"
+                android:paddingLeft="10dp"
+                />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/description_vente_modify"
+                android:background="@drawable/border_ed_formulaire"
+                android:backgroundTint="@color/greyLight"
+                android:textColor="@color/blackColor"
+                android:layout_height="40dp"
+                android:hint="Description"
+                android:paddingLeft="10dp"
+                />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/quantite_vendue_modify"
+                android:background="@drawable/border_ed_formulaire"
+                android:backgroundTint="@color/greyLight"
+                android:textColor="@color/blackColor"
+                android:layout_height="40dp"
+                android:hint="Quantite"
+                android:paddingLeft="10dp"
+                />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/montant_vente_modify"
+                android:background="@drawable/border_ed_formulaire"
+                android:backgroundTint="@color/greyLight"
+                android:textColor="@color/blackColor"
+                android:layout_height="40dp"
+                android:hint="Montant"
+                android:paddingLeft="10dp"
+                />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/nom_client_modify"
+                android:background="@drawable/border_ed_formulaire"
+                android:backgroundTint="@color/greyLight"
+                android:textColor="@color/blackColor"
+                android:layout_height="40dp"
+                android:hint="Client"
+                android:paddingLeft="10dp"
+                />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/status_modify"
+                android:background="@drawable/border_ed_formulaire"
+                android:backgroundTint="@color/greyLight"
+                android:textColor="@color/blackColor"
+                android:layout_height="40dp"
+                android:text="Payé ou Non payé"
+                android:hint="Payé ou Non payé"
+                android:paddingLeft="10dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagebgd"
+    android:orientation="vertical"
+    tools:context=".activities.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="20">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/logoeasycompta" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="45"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_logo"
+            android:drawableLeft="@mipmap/adress"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textEmailAddress" />
+        <TextView
+            android:id="@+id/emptyemail"
+            android:layout_width="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/redColor"/>
+
+        <EditText
+            android:id="@+id/edt_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_logo"
+            android:drawableLeft="@mipmap/lock"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+        <TextView
+            android:id="@+id/emptypwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@color/white"
+            android:textColor="@color/redColor"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="25"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/login"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="@string/register"
+                android:gravity="center"
+                android:id="@+id/register"
+                android:textColor="@color/input_login"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="0px"
+                android:id="@+id/resetpassword"
+                android:layout_height="wrap_content"
+               android:layout_weight="50"
+                android:gravity="center"
+                android:text="Password forgot"
+                android:textColor="@color/input_login"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

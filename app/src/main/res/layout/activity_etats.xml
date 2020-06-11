@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.EtatsActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="4"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"
+            android:id="@+id/vente_total"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="@color/blackColor"
+            android:text="VENTES"/>
+        <TextView
+            android:id="@+id/liste_des_depenses"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_height="60dp"
+            android:layout_margin="4dp"
+            android:background="@color/blackColor"
+            android:textSize="30dp"
+            android:text="DÉPENSES"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/versbanque"
+            android:background="@color/blackColor"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="BANQUE"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/voirbenefice"
+            android:background="@color/blackColor"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="BÉNÉFICE"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/etat_stock"
+            android:textColor="@color/white"
+            android:background="@color/blackColor"
+            android:layout_margin="4dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="STOCK"/>
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0px"
+    android:layout_weight="3.5"
+    android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:background="@drawable/borderlogo"
+            android:layout_height="280dp"
+            android:id="@+id/logo_etats_activity"
+            android:src="@drawable/logoeasycompta"/>
+</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
